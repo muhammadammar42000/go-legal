@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("./hank-shake-continue-today-main-200403.jpg") 100%;
+    background-size: cover;
+    z-index: 1;
+}
+.navbar{
+    height: 15vh;
+    /* background: cadetblue; */
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 1;
+}
+.item2{
+    background-image: url(./logo.jpeg);
+    background-size: 100% 100%;
+}
+.item4,
+.item5,
+.item6{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Kaisei Tokumin', serif;
+}
+.item8 .bookAnEvaluation{
+    background: #b19e80;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    height: 5rem;
+    width: 25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header-bot{
+    height: 40vh;
+    /* background: #333; */
+    z-index: 2;
+    position: relative;
+    top: 6rem;
+    display: flex;
+    margin: auto;
+}
+.box1,
+.box2,
+.box3{
+    width: 40rem;
+    height: 30rem;
+    background: #1a2537;
+    margin: 0.6rem;
+    border-radius: 1rem;
+    flex-flow: column;
+}
+.header-content{
+    height: 40rem;
+    flex-flow: column;
+    color: white;
+}
+.header-content h1{
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+}
+.header-content h3{
+    width: 80rem;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align-last: center;
+    font-family: 'Roboto', sans-serif;
+}
+.header-content button{
+    font-size: 2rem; 
+    height: 5.5rem;
+    width: 25rem;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 3rem;
+    margin-top: 3rem;
+    /* letter-spacing: 1px; */
+}
+.header-bot i{
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.header-bot h1{
+    font-size: 3rem;
+    color: white;
+}
+.section2{
+    height: 85vh;
+    background: #fffdfd;
+}
+.section2-container{
+    height: 50vh;
+    position: relative;
+    top: 20rem;
+    display: flex;
+    margin: auto;
+}
+.section2-container .leftside,.rightside{
+    width: 40%;
+    height: 100%;
+}
+.leftside{
+    text-align: left;
+}
+.leftside h1{
+    font-size: 5rem;
+    color: #1a2537;
+    margin-bottom: 2rem;
+}
+.leftside p{
+    width: 60rem;
+    font-size: 2rem;
+    color: #aca9a6;
+    margin-bottom: 3rem;
+}
+.leftside h3{
+    width: 60rem;
+    font-size: 2rem;
+    color: #1a2537;
+}
+.leftside button{
+    font-size: 2rem; 
+    height: 5.5rem;
+    width: 20rem;
+    color: #1a2537;
+    background: transparent;
+    border: 2px solid #1a2537;
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+.rightside{
+    background: url(./4.jpg) ;
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+.rightside .contact-no{
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    background: #b29f81;
+    border-radius: 5rem;
+    color: white;
+    bottom: -2rem;
+    right: 15rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 1rem;
+}
+.section3{
+    height: 75vh;
+    background: #eeeeee;
+    display: flex;
+    margin: auto;
+}
+.section3 .sec3-left,.sec3-right{
+    width: 35%;
+    height: 90%;
+    margin-right: 4rem;
+}
+.section3 .sec3-left{
+    background: url(./3.jpg);
+    background-size: 100% 100%;
+}
+.fa-play-circle{
+    font-size: 10rem;
+    color: white;
+    font-weight: lighter;
+}
+.section3 .sec3-right{
+    background: #fffdfd;
+    text-align: left;
+    border-radius: 1rem;
+}
+.section3 .sec3-right h1{
+    margin: 4rem;
+    color: #1a2537;
+    font-size: 5rem;
+}
+.section3 .sec3-right-cont{
+    margin: 4rem;
+    font-size: 3rem;
+    width: 80%;
+    
+}
+.section3 .sec3-right-cont p{
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1a2537;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.section3 .sec3-right-cont i{
+    color: #a59483;
+    margin-right: 1rem;
+    font-size: 3rem;
+}
+.section4{
+    height: 50vh;
+    background: #fffdfd url(./section4\ background.png) no-repeat;
+    background-size: 100% 100%;
+}
+.sec4-cont{
+    width: 80%;
+    margin: auto;
+}
+.sec4-cont{
+    color: #1a2537;
+    font-size: 3rem;
+}
+.sec4-cont .client-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    margin: 3rem;
+}
+.sec4-cont .some-text{
+    font-size: 2rem;
+    color: #aca9a6;
+    margin-bottom: 2rem;
+}
+.sec4-cont .justin{
+    color: #828282;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sec4-cont .newyork{
+    color: #6ec1e4;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    margin: 1rem;
+}
+.sec4-cont .circles .circle1, .circle2{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 0.7rem;
+    margin: 0.3rem;
+    font-style: italic;
+}
+
+.sec4-cont .circles .circle1{
+    background: #a59483;
+}
+.sec4-cont .circles .circle2{
+    background: #cccccc;
+}
+.section5{
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(./footerbackground.png);
+    background-size: cover;
+}
+.section5 .footerup{
+    display: flex;
+    padding-top: 2rem;
+}
+.section5 .footerup .one, .two, .three{
+    width: 30rem;
+    height: 30rem;
+    margin: 0.6rem;
+    border-radius: 1rem;
+    flex-flow: column;
+    text-align: left;
+    padding: 4rem;
+}
+.section5 .footerup .one .logo{
+    background: url(./logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 19rem;
+    height: 15rem;
+    
+}
+.logos{
+    display: flex;
+}
+.logo1,
+.logo2{
+    margin-top: 2rem ;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    border-radius: 4rem;
+    background: gray;
+}
+.logo1,
+.logo2 i{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.section5 .footerup .two .useful-links{
+        color: #b29f81;;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+}
+.section5 .footerup .two .options{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section5 .footerup .two .arrow{
+    color: #b29f81;
+    font-weight:900;
+    padding-right: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.section5 .footerup .three h1{
+    color: #b29f81;;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section5 .footerup .three p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section5 .footerup .three i{
+    margin-right: 1rem;
+    color: #b29f81;
+}
+.footerdown{
+    background: #1a2537;
+    height: 6rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .leftside p{
+        width: 40rem;
+        font-size: 2rem;
+        color: #aca9a6;
+        margin-bottom: 3rem;
+    }
+    .leftside h3{
+        width: 40rem;
+        font-size: 2rem;
+        color: #1a2537;
+    }
+    .section2-container{
+        height: 50vh;
+        position: relative;
+        top: 20rem;
+        display: flex;
+        margin: auto;
+        top: 16.5rem;
+    }
+    .leftside button{
+        font-size: 2rem; 
+        height: 5.5rem;
+        width: 20rem;
+        color: #1a2537;
+        background: transparent;
+        border: 2px solid #1a2537;
+        border-radius: 3rem;
+        margin-top: 1rem;
+    }
+    .box1,
+    .box2,
+    .box3{
+    width: 30rem;
+    height: 20rem;
+    background: #1a2537;
+    margin: 0.6rem;
+    border-radius: 1rem;
+    flex-flow: column;
+}
+    
+
+}
+@media only screen and (max-width: 790px){
+    .item4,
+    .item5,
+    .item6{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Kaisei Tokumin', serif;
+    }
+
+    .item2{
+    background-image: url(./logo.jpeg);
+    background-size: 100% 100%;
+    width: 15rem;
+    }
+
+    .item8 .bookAnEvaluation{
+    background: #b19e80;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5rem;
+    width: 20rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    }
+    .header-content h1{
+        font-size: 3.2rem;
+        margin-bottom: 2.5rem;
+    }
+    .header-content h3{
+        width: 70rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-align-last: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .header-content button{
+        font-size: 1.5rem; 
+        height: 5.5rem;
+        width: 20rem;
+        color: white;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 3rem;
+        margin-top: 3rem;
+        /* letter-spacing: 1px; */
+    }
+    .header-bot i{
+        font-size: 5rem;
+        color: white;
+        margin-bottom: 2rem;
+    }
+    .header-bot h1{
+        font-size: 2.5rem;
+        color: white;
+    }
+    .leftside h1{
+        font-size: 4rem;
+        color: #1a2537;
+        margin-bottom: 2rem;
+    }
+    .leftside p{
+        width: 30rem;
+        font-size: 1.5rem;
+        color: #aca9a6;
+        margin-bottom: 3rem;
+    }
+    .leftside h3{
+        width: 30rem;
+        font-size: 1.5rem;
+        color: #1a2537;
+    }
+    .leftside button{
+        font-size: 1.5rem; 
+        height: 5rem;
+        width: 15rem;
+        color: #1a2537;
+        background: transparent;
+        border: 2px solid #1a2537;
+        border-radius: 3rem;
+        margin-top: 3rem;
+    }
+    .rightside{
+        background: url(./4.jpg) center ;
+        background-size: 100% 100%;
+        border-radius: 1rem;
+    
+    }
+    .rightside .contact-no{
+        position: absolute;
+        width: 15rem;
+        height: 5rem;
+        background: #b29f81;
+        border-radius: 5rem;
+        color: white;
+        bottom: -2rem;
+        right: 7rem;
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        gap: 1rem;
+    }
+    .section3{
+        height: 60vh;
+        background: #eeeeee;
+        display: flex;
+        margin: auto;
+    }
+    .fa-play-circle{
+        font-size: 7rem;
+        color: white;
+        font-weight: lighter;
+    }
+    .section3 .sec3-right h1{
+        margin: 3rem;
+        color: #1a2537;
+        font-size: 3.7rem;
+        width: 100%;
+    }
+    .section3 .sec3-right-cont{
+        margin: 4rem;
+        font-size: 3rem;
+        width: 80%;
+        
+    }
+    .section3 .sec3-right-cont p{
+        margin-bottom: 3rem;
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: #1a2537;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .section3 .sec3-right-cont i{
+        color: #a59483;
+        margin-right: 1rem;
+        font-size: 3rem;
+    }
+    .sec4-cont{
+        color: #1a2537;
+        font-size: 2rem;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    navbar{
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+    }
+    .item4,.item5,.item6,.item8{
+        display: none;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        width: 370px;
+    }
+    .header-content h3{
+        width: 370px;
+        font-size: 1.2rem;
+        font-weight: normal;
+        text-align-last: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .header-content button{
+        font-size: 1.2rem; 
+        height: 4rem;
+        width: 15rem;
+        color: white;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 3rem;
+        margin-top: 3rem;
+        /* letter-spacing: 1px; */
+    }
+    .header-bot{
+        height: 80vh;
+        /* background: #333; */
+        z-index: 2;
+        position: relative;
+        top: -10rem;
+        display: flex;
+        margin: auto;
+    }
+    .box1,
+    .box2,
+    .box3{
+        width: 20rem;
+        height: 12rem;
+        background: #1a2537;
+        margin: 0.6rem;
+        border-radius: 1rem;
+    }
+    .header-bot i{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 2rem;
+    }
+    .header-bot h1{
+        font-size: 1rem;
+        color: white;
+    }
+    .leftside h1{
+        font-size: 2.5rem;
+        color: #1a2537;
+        margin-bottom: 2rem;
+    }
+    .leftside p{
+        width: 150px;
+        font-size: 1.1rem;
+        color: #aca9a6;
+        margin-bottom: 3rem;
+    }
+    .leftside h3{
+        width: 150px;
+        font-size: 1rem;
+        color: #1a2537;
+    }
+    .leftside button{
+        font-size: 1rem; 
+        height: 3rem;
+        width: 10rem;
+        color: #1a2537;
+        background: transparent;
+        border: 2px solid #1a2537;
+        border-radius: 3rem;
+        margin-top: 3rem;
+    }
+    .rightside .contact-no{
+        position: absolute;
+        width: 10rem;
+        height: 3rem;
+        background: #b29f81;
+        border-radius: 5rem;
+        color: white;
+        bottom: -2rem;
+        right: 3rem;
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        gap: 0.5rem;
+    }
+    .section3{
+        height: 50vh;
+    }
+    .section3 .sec3-left,.sec3-right{
+        width: 35%;
+        height: 80%;
+        margin-right: 1rem;
+    }
+    .fa-play-circle{
+        font-size: 4rem;
+        color: white;
+        font-weight: lighter;
+    }
+    .section3 .sec3-right h1{
+        margin: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        color: #1a2537;
+        font-size: 1.7rem;
+    }
+    .section3 .sec3-right-cont{
+        margin: 1rem;
+        font-size: 1rem;
+        width: 80%;
+        
+    }
+    .section3 .sec3-right-cont p{
+        margin-bottom: 3rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #1a2537;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .section3 .sec3-right-cont i{
+        color: #a59483;
+        margin-right: 0.2rem;
+        font-size: 1rem;
+    }
+    .section4{
+        height: 40vh;
+    }
+    .sec4-cont{
+        color: #1a2537;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .sec4-cont .client-img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 3rem;
+        margin: 2rem;
+    }
+    .sec4-cont .some-text{
+        font-size: 1.5rem;
+        color: #aca9a6;
+        margin-bottom: 2rem;
+    }
+    .sec4-cont .justin{
+        color: #828282;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .sec4-cont .newyork{
+        color: #6ec1e4;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-style: italic;
+        margin: 1rem;
+    }
+    .sec4-cont .circles .circle1, .circle2{
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 0.7rem;
+        margin: 0.3rem;
+        font-style: italic;
+    }
+
+    .section5 .footerup{
+        display: flex;
+        padding-top: 1rem;
+    }
+    .section5 .footerup .one, .two, .three{
+        width: 100px;
+        height: 30rem;
+        margin: 0.6rem;
+        border-radius: 1rem;
+        flex-flow: column;
+        text-align: left;
+    }
+    .section5 .footerup .one .logo{
+        width: 5rem;
+        height: 5rem;
+        margin-left: -4rem;
+    }
+    .logos{
+        display: flex;
+    }
+    .logo1,
+    .logo2{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 1.5rem;
+        background: gray;
+        margin-top: 1rem;
+        margin-left: -3.2rem;
+
+    }
+    .logo1,
+    .logo2 i{
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .section5 .footerup .two .useful-links{
+            color: #b29f81;;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            margin-left: -3rem;
+    }
+    .section5 .footerup .two .options{
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-left: -3rem;
+    }
+    .section5 .footerup .two p{
+        width: 60px;
+    }
+    .section5 .footerup .two .arrow{
+        padding-right: 2px;
+        
+    }
+    .section5 .footerup .three h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-left: -5rem;
+    }
+    .section5 .footerup .three p{
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        margin-left: -5rem;
+        width: 130px;
+    }
+    .section5 .footerup .three i{
+        margin-right: 2px;
+        color: #b29f81;
+    }
+
+
+    .footerdown{
+        height: 4rem;
+        font-size: 1rem;
+
+    }
+    
+}
