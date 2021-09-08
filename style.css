@@ -15,13 +15,12 @@ html{
     text-align: center;
 }
 .header{
-    height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("./hank-shake-continue-today-main-200403.jpg") 100%;
     background-size: cover;
     z-index: 1;
 }
 .navbar{
-    height: 15vh;
+    height: 15rem;
     /* background: cadetblue; */
     display: grid;
     grid-template-columns: repeat(9,1fr);
@@ -51,8 +50,7 @@ html{
 
 }
 .header-bot{
-    height: 40vh;
-    /* background: #333; */
+    /* height: 40vh; */
     z-index: 2;
     position: relative;
     top: 6rem;
@@ -106,13 +104,13 @@ html{
     color: white;
 }
 .section2{
-    height: 85vh;
     background: #fffdfd;
+    height: 70rem;
 }
 .section2-container{
-    height: 50vh;
+    height: 50rem;
     position: relative;
-    top: 20rem;
+    top: 15rem;
     display: flex;
     margin: auto;
 }
@@ -169,14 +167,13 @@ html{
     gap: 1rem;
 }
 .section3{
-    height: 75vh;
     background: #eeeeee;
     display: flex;
     margin: auto;
 }
 .section3 .sec3-left,.sec3-right{
     width: 35%;
-    height: 90%;
+    height: 50rem;
     margin-right: 4rem;
 }
 .section3 .sec3-left{
@@ -217,7 +214,6 @@ html{
     font-size: 3rem;
 }
 .section4{
-    height: 50vh;
     background: #fffdfd url(./section4\ background.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -267,7 +263,6 @@ html{
     background: #cccccc;
 }
 .section5{
-    height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(./footerbackground.png);
     background-size: cover;
 }
@@ -371,7 +366,6 @@ html{
         color: #1a2537;
     }
     .section2-container{
-        height: 50vh;
         position: relative;
         top: 20rem;
         display: flex;
@@ -504,7 +498,6 @@ html{
         gap: 1rem;
     }
     .section3{
-        height: 60vh;
         background: #eeeeee;
         display: flex;
         margin: auto;
@@ -578,7 +571,7 @@ html{
         /* letter-spacing: 1px; */
     }
     .header-bot{
-        height: 80vh;
+        height: 50rem;
         /* background: #333; */
         z-index: 2;
         position: relative;
@@ -680,9 +673,6 @@ html{
         color: #a59483;
         margin-right: 0.2rem;
         font-size: 1rem;
-    }
-    .section4{
-        height: 40vh;
     }
     .sec4-cont{
         color: #1a2537;
