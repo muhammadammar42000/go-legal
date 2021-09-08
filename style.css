@@ -170,6 +170,7 @@ html{
     background: #eeeeee;
     display: flex;
     margin: auto;
+    height: 60rem;
 }
 .section3 .sec3-left,.sec3-right{
     width: 35%;
@@ -804,17 +805,35 @@ html{
         width: 300px;
     }
     .section5 .footerup .three p{
-        color: white;
-        font-size: 1rem;
-        margin-bottom: 2rem;
-        text-align: left;
-        margin-left: -5rem;
-        width: 100px;
+        width: 90px;
     }
     .section3 .sec3-right-cont{
         width: 119px;
-        height: 312px;
         
+    }
+    .section3 .sec3-right h1{
+        margin: 0.4rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.6rem;
+    }
+    .section3 .sec3-right-cont p{
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+    }
+    .leftside p{
+        width: 130px;
+        font-size: 1.1rem;
+        color: #aca9a6;
+        margin-bottom: 3rem;
+    }
+    .leftside h3{
+        width: 130px;
+        font-size: 1rem;
+        color: #1a2537;
+    }
+    .footerdown{
+        font-size: 0.9rem;
+
     }
 
     
