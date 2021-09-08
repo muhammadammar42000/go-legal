@@ -127,13 +127,13 @@ html{
     margin-bottom: 2rem;
 }
 .leftside p{
-    width: 60rem;
+    width: 55rem;
     font-size: 2rem;
     color: #aca9a6;
     margin-bottom: 3rem;
 }
 .leftside h3{
-    width: 60rem;
+    width: 55rem;
     font-size: 2rem;
     color: #1a2537;
 }
@@ -571,11 +571,11 @@ html{
         /* letter-spacing: 1px; */
     }
     .header-bot{
-        height: 50rem;
+        height: 20rem;
         /* background: #333; */
         z-index: 2;
         position: relative;
-        top: -10rem;
+        top: 10rem;
         display: flex;
         margin: auto;
     }
@@ -792,5 +792,30 @@ html{
         font-size: 1rem;
 
     }
+    
+}
+@media only screen and (max-width: 340px) {
+    .header-content h3{
+        width: 300px;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        width: 300px;
+    }
+    .section5 .footerup .three p{
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        margin-left: -5rem;
+        width: 100px;
+    }
+    .section3 .sec3-right-cont{
+        width: 119px;
+        height: 312px;
+        
+    }
+
     
 }
